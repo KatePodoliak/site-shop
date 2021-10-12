@@ -170,7 +170,8 @@ nav .list-categories {
 nav .list-categories .list-categories-item a {
   color: #787885;
   display: block;
-    font-family: 'Inter', sans-serif;font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
 font-weight: 500;
 font-size: 14px;
 }
@@ -223,9 +224,43 @@ aside {
   margin-top: 16px;
 }
 
-.catalog-filters select{
-  border: none;
-  margin: 20px;
+.catalog-filters fieldset{
+    padding: 0px 12px 3px 12px;
+    border: 1px solid #5A5B6A;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.catalog-filters legend{
+    color: #787885;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+
+.catalog-filters .catalog-filters-sort {
+    color: #19191D;
+    border: none;
+    letter-spacing: 0.018em;
+    padding: 0 20px 0 0;
+    -webkit-appearance: none;
+    background: url("../img/select-arrow.png") no-repeat right;
+    font-family: 'Inter', sans-serif;
+}
+
+.catalog-filters .catalog-filters-select{
+    padding: 5px 20px 0 5px;
+    margin: 20px 0 0 0;
+    font-weight: normal;
+    font-size: 14px;
+    color: #787885;
+    border: 1px solid #B4B4BB;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: url("../img/select-arrow.png") no-repeat right;
+    background-position-y: 17px;
+    height: 36px;
 }
 
 .cell {
@@ -271,8 +306,6 @@ aside+.catalog .cell {
     content: "\2605";
     position: absolute;
 }
-
-.rating-numeral {}
 
 .watch-cart {
     display: inline;
