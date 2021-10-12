@@ -1,48 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Document</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css" />
-    </head>
-    <body>
-        <div class="container">
-            <header class="header">
-                <div class="logo">
-                    <a class="logo-img">
-                        <img src="img/logo.png"/>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <div class="header-logo">
+                    <a class="header-logo-img">
+                        <img src="img/logo.png" />
                     </a>
                 </div>
                 <div class="header-link">
                     <a class="header-link-sell">Sell on Shopka</a>
                     <a class="header-link-register">Register</a>
                 </div>
-                <div class="header-search">
-                    <input type="text" name="search" placeholder="useless items on white background">
-                </div>
+                <form class="header-search">
+                    <input type="text" placeholder="useless items on white background">
+                    <button type="submit"></button>
+                    <button type="reset"></button>
+                </form>
                 <div class="header-right-link">
                     <a>Consumer Electronics</a>
                 </div>
                 <div class="header-buttons">
                     <button class="button">Sign in</button>
                     <button class="button-cart">My cart</button>
-                    <img src="img/icon-profile.png"/>
+                    <img src="img/icon-profile.png" />
                 </div>
-            </header>
-            <main>
+            </div>
+            <nav>
+                <ul class="list-categories">
+                    <li class="list-categories-item">
+                        <img src="img/Clothing.png">
+                        <a href="#">Clothing & Shoes</a>
+                    </li>
+                    <li class="list-categories-item">
+                        <img src="img/entertaintment.png">
+                        <a href="#">Entertaintment</a>
+                    </li>
+                    <li class="list-categories-item">
+                        <img src="img/music.png">
+                        <a href="#">Music</a>
+                    </li>
+                    <li class="list-categories-item">
+                        <img src="img/sport.png">
+                        <a href="#">Sport & Lifestyle</a>
+                    </li>
+                    <li class="list-categories-item">
+                        <img src="img/pets.png">
+                        <a href="#">Pets</a>
+                    </li>
+                    <li class="list-categories-item">
+                        <img src="img/kitchen.png">
+                        <a href="#">Kitchen Accessories</a>
+                    </li>
+                    <li class="list-categories-item">
+                        <img src="img/travel.png">
+                        <a href="#">Travel Equipment</a>
+                    </li>
+                    <li class="list-categories-item">
+                        <img src="img/growing.png">
+                        <a href="#">Growing & Garden</a>
+                    </li>
+                    <li class="list-categories-item">
+                        <img src="img/electrical.png">
+                        <a href="#">Electrical Tools</a>
+                    </li>
+                    <li class="list-categories-item">
+                        <img src="img/mother.png">
+                        <a href="#">Mother Care</a>
+                    </li>
+                    <li class="list-categories-item">
+                        <img src="img/toys.png">
+                        <a href="#">Toys & Entertaitment</a>
+                    </li>
+                    <li class="list-categories-item">
+                        <img src="img/vintage.png">
+                        <a href="#">Vintage</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="wrap">
+                <aside>
+                    <div class="sidebar">
+                       
+                    </div>
+                </aside>
+                <div class="catalog">
+                    <div class="catalog-filters">
+                        <form>
+                            <fieldset>
+                                <legend>Sort by</legend>
+                                <select>
+                                     <option>Useless first</option>
+                                </select>
+                            </fieldset>
+                        </form>
+                        <select>
+                            <option>Condition</option>
+                        </select>
+                        <select>
+                            <option>Delivery options</option>
+                        </select>
 
-            </main>
-            <footer>
+                    </div>
+                    <div class="cell">
+                        <div class="cell-inside">
+                            <div class="product-img">
+                                <a href="">
+                                    <img src="img/typewriter.png">
+                                </a>
+                            </div>
+                            <div class="product-list">
+                                <h3>Vintage Typewriter to post awesome stories about UI
+                                    design and webdev.</h3>
+                                <span class="price">$49.50</span>
+                                <br>
+                                <span class="additional-info">Ja hz chto zdes dolgno byt</span>
+                                <div class="actions">
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                    <span class="rating-numeral">4.05</span>
+                                    <div class="watch-cart">
+                                        <a href="" class="cart-button">Watch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="cell-inside">
+                            <div class="product-img">
+                                <a href="">
+                                    <img src="img/shoes.png">
+                                </a>
+                            </div>
+                            <div class="product-list">
+                                <h3>Vintage Typewriter to post awesome stories about UI
+                                    design and webdev.</h3>
+                                <span class="price">$49.50</span>
+                                <br>
+                                <span class="additional-info">Ja hz chto zdes dolgno byt</span>
+                                <div class="actions">
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                    <span class="rating-numeral">4.05</span>
+                                    <div class="watch-cart">
+                                        <a href="" class="cart-button">Watch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="cell-inside">
+                            <div class="product-img">
+                                <a href="">
+                                    <img src="img/timesaving.png">
+                                </a>
+                            </div>
+                            <div class="product-list">
+                                <h3>Vintage Typewriter to post awesome stories about UI
+                                    design and webdev.</h3>
+                                <span class="price">$49.50</span>
+                                <br>
+                                <span class="additional-info">Ja hz chto zdes dolgno byt</span>
+                                <div class="actions">
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                    <span class="rating-numeral">4.05</span>
+                                    <div class="watch-cart">
+                                        <a href="" class="cart-button">Watch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="cell-inside">
+                            <div class="product-img">
+                                <a href="">
+                                    <img src="img/plastic.png">
+                                </a>
+                            </div>
+                            <div class="product-list">
+                                <h3>Vintage Typewriter to post awesome stories about UI
+                                    design and webdev.</h3>
+                                <span class="price">$49.50</span>
+                                <br>
+                                <span class="additional-info">Ja hz chto zdes dolgno byt</span>
+                                <div class="actions">
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                    <span class="rating-numeral">4.05</span>
+                                    <div class="watch-cart">
+                                        <a href="" class="cart-button">Watch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="cell-inside">
+                            <div class="product-img">
+                                <a href="">
+                                    <img src="img/creativity.png">
+                                </a>
+                            </div>
+                            <div class="product-list">
+                                <h3>Vintage Typewriter to post awesome stories about UI
+                                    design and webdev.</h3>
+                                <span class="price">$49.50</span>
+                                <br>
+                                <span class="additional-info">Ja hz chto zdes dolgno byt</span>
+                                <div class="actions">
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                    <span class="rating-numeral">4.05</span>
+                                    <div class="watch-cart">
+                                        <a href="" class="cart-button">Watch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="cell-inside">
+                            <div class="product-img">
+                                <a href="">
+                                    <img src="img/prototyping.png">
+                                </a>
+                            </div>
+                            <div class="product-list">
+                                <h3>Vintage Typewriter to post awesome stories about UI
+                                    design and webdev.</h3>
+                                <span class="price">$49.50</span>
+                                <br>
+                                <span class="additional-info">Ja hz chto zdes dolgno byt</span>
+                                <div class="actions">
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                    <span class="rating-numeral">4.05</span>
+                                    <div class="watch-cart">
+                                        <a href="" class="cart-button">Watch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="cell-inside">
+                            <div class="product-img">
+                                <a href="">
+                                    <img src="img/ebalkin.png">
+                                </a>
+                            </div>
+                            <div class="product-list">
+                                <h3>Vintage Typewriter to post awesome stories about UI
+                                    design and webdev.</h3>
+                                <span class="price">$49.50</span>
+                                <br>
+                                <span class="additional-info">Ja hz chto zdes dolgno byt</span>
+                                <div class="actions">
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                    <span class="rating-numeral">4.05</span>
+                                    <div class="watch-cart">
+                                        <a href="" class="cart-button">Watch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="cell-inside">
+                            <div class="product-img">
+                                <a href="">
+                                    <img src="img/envelope.png">
+                                </a>
+                            </div>
+                            <div class="product-list">
+                                <h3>Vintage Typewriter to post awesome stories about UI
+                                    design and webdev.</h3>
+                                <span class="price">$49.50</span>
+                                <br>
+                                <span class="additional-info">Ja hz chto zdes dolgno byt</span>
+                                <div class="actions">
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                    <span class="rating-numeral">4.05</span>
+                                    <div class="watch-cart">
+                                        <a href="" class="cart-button">Watch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="cell-inside">
+                            <div class="product-img">
+                                <a href="">
+                                    <img src="img/teadrinking.png">
+                                </a>
+                            </div>
+                            <div class="product-list">
+                                <h3>Vintage Typewriter to post awesome stories about UI
+                                    design and webdev.</h3>
+                                <span class="price">$49.50</span>
+                                <br>
+                                <span class="additional-info">Ja hz chto zdes dolgno byt</span>
+                                <div class="actions">
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                    <span class="rating-numeral">4.05</span>
+                                    <div class="watch-cart">
+                                        <a href="" class="cart-button">Watch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="cell-inside">
+                            <div class="product-img">
+                                <a href="">
+                                    <img src="img/bonsai.png">
+                                </a>
+                            </div>
+                            <div class="product-list">
+                                <h3>Vintage Typewriter to post awesome stories about UI
+                                    design and webdev.</h3>
+                                <span class="price">$49.50</span>
+                                <br>
+                                <span class="additional-info">Ja hz chto zdes dolgno byt</span>
+                                <div class="actions">
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                    <span class="rating-numeral">4.05</span>
+                                    <div class="watch-cart">
+                                        <a href="" class="cart-button">Watch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="cell-inside">
+                            <div class="product-img">
+                                <a href="">
+                                    <img src="img/nails.png">
+                                </a>
+                            </div>
+                            <div class="product-list">
+                                <h3>Vintage Typewriter to post awesome stories about UI
+                                    design and webdev.</h3>
+                                <span class="price">$49.50</span>
+                                <br>
+                                <span class="additional-info">Ja hz chto zdes dolgno byt</span>
+                                <div class="actions">
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                    <span class="rating-numeral">4.05</span>
+                                    <div class="watch-cart">
+                                        <a href="" class="cart-button">Watch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="cell-inside">
+                            <div class="product-img">
+                                <a href="">
+                                    <img src="img/kistochki.png">
+                                </a>
+                            </div>
+                            <div class="product-list">
+                                <h3>Vintage Typewriter to post awesome stories about UI
+                                    design and webdev.</h3>
+                                <span class="price">$49.50</span>
+                                <br>
+                                <span class="additional-info">Ja hz chto zdes dolgno byt</span>
+                                <div class="actions">
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                    <span class="rating-numeral">4.05</span>
+                                    <div class="watch-cart">
+                                        <a href="" class="cart-button">Watch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </div>
+</body>
 
-            </footer>
-        </container>
-    </body>
 </html>
